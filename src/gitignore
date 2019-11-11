@@ -1,0 +1,41 @@
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+
+# npm
+node_modules
+package-lock.json
+*.log
+*.gz
+
+
+# Build
+public/css/main.css
+
+# Coverage reports
+coverage
+
+# API keys and secrets
+.env
+
+
+# Editors
+.idea
+*.iml
+
+# Ignore built ts files
+dist/**/*
+
+# ignore yarn.lock
+yarn.lock

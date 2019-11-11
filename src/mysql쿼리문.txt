@@ -1,0 +1,7 @@
+insert into users(email,password,name,teamname) values('df@naver.com','1234','홍길동','1팀');
+insert into users(email,password,name,teamname) values('a@naver.com','1234','김철수','1팀');
+insert into users(email,password,name,teamname) values('b@naver.com','1234','김영희','1팀');
+
+insert into businessinfos(bus_name,bus_term) values('1번사업','2019-01-26~2019-02-01');
+insert into businessinfos(bus_name,bus_term) values('2번사업','2019-05-26~2019-10-01');
+insert into businessinfos(bus_name,bus_term) values('3번사업','2019-07-26~2019-12-01');

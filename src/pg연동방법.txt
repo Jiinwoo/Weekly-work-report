@@ -1,0 +1,11 @@
+pakage.json에서 mysql2랑 bcrypt지우고 딴 파일에 있는거도 지우기
+
+pakage-lock.json에서 brcypt관련된거 밑에꺼 까지 다 지우기
+
+config.json에서 username은 postgres로 ,password는 설정한대로, dialect는 postgres로 바꾸기
+
+터미널에서 npm i
+	   npm install --save sequelize 
+           npm install --save pg pg-hstore
+           sequelize db:create
+           npm start
